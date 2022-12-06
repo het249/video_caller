@@ -6,8 +6,27 @@ body{
     height:100vh;
     width: 100vw;
 }
+#videoPlayer{
+    height:90vh;
+    width:90vw;
+    margin:auto;
+}
+.videoContainer{
+    background-color: rgb(77, 77, 77);
+    height:80%;
+    width:80%;
+    margin:auto;
+}
 #myVideo{
-    height: 80vh;
-    width: 80vw;
+    background-color: black;
+    height: available;
+    width: 80%;
     margin: auto;
+}
+#videoControls{
+    width: 40vw;
+    min-width: 200px;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
 }

@@ -4,13 +4,18 @@
             Video Caller
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link src="index.css" type="text/stylesheet"/>
+        <link rel="stylesheet" href="index.css"/>
     </head>
     <body>
-        Hello
-        <div>
-            <video id="myVideo"></video>
-            <video id="myVideo"></video>
+        <div id="videoPlayer">
+            <div class="videoContainer">
+                <video id="myVideo"></video>
+            </div>
+            <div id="videoControls">
+                <button id="videoPauseBtn">Pause</button>
+                <button id="callJoinBtn">Join Call</button>
+                <button id="videoMuteBtn">Mute</button>
+            </div>
         </div>
         <script>
             //const videoId = document.getElementById("video0");
