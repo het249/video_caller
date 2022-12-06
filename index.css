@@ -19,7 +19,7 @@ body{
 }
 #myVideo{
     background-color: black;
-    height: available;
+    height: 80%;
     width: 80%;
     margin: auto;
 }
